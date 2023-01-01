@@ -5,7 +5,7 @@ import Display from "./Components/Display";
 
 function App() {
   const [tasks, setTasks] = useState([
-    { id: 25, name: "Get python black belt", completed : false },
+    { id: 25, name: "Get python black belt", done : false }
    
   ]);
   const addTask = (task) => {
