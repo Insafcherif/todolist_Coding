@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 
 const Form = ({ addTask }) => {
-    const [task, setTask] = useState({id: 1, name: " " });
+    const [task, setTask] = useState({id: 1, name: " " ,  completed : false});
     const handleChange = (e) => {
         setTask({ id: Math.floor(Math.random() * 10000), name: e.target.value });
       };
